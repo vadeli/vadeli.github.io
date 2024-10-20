@@ -3,21 +3,18 @@
 
 @import "jekyll-theme-minimal";
 
-/* Custom styles */
+/* Social icons styling */
+.social-links {
+    margin-top: 20px;
+}
+
 .social-links a {
-    font-size: 24px;
-    margin: 0 10px;
-    color: #333;
-    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.social-links a:hover {
-    color: #0077b5; /* LinkedIn blue */
-}
-
-.fa {
-    padding: 10px;
+.social-icon {
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #ddd;
 }

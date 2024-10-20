@@ -7,13 +7,12 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Vida Adeli - AI/ML Researcher" }}</a></h1>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Vida Adeli - Computer Vision Researcher" }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -21,19 +20,24 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- Social media links -->
+        <!-- Social media links with custom logos -->
         <div class="social-links">
-          <a href="https://www.linkedin.com/in/vida-adeli/" target="_blank" class="fa fa-linkedin"></a>
-          <a href="https://github.com/vida-adeli" target="_blank" class="fa fa-github"></a>
-          <a href="https://x.com/vida_adl" class="fa fa-twitter"></a>
-          <a href="mailto:vida.adeli@mail.utoronto.ca" class="fa fa-envelope"></a>
+          <a href="https://www.linkedin.com/in/vida-adeli-3a970384/" target="_blank">
+            <img src="/assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
+          </a>
+          <a href="https://github.com/vida-adeli" target="_blank">
+            <img src="/assets/img/github.png" alt="GitHub" class="social-icon">
+          </a>
+          <a href="https://x.com/vida_adl" target="_blank">
+            <img src="/assets/img/twitter.png" alt="Twitter" class="social-icon">
+          </a>
+          <a href="mailto:vida.adeli@mail.utoronto.ca">
+            <img src="/assets/img/email.png" alt="Email" class="social-icon">
+          </a>
         </div>
-
       </header>
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
       <footer>
         <p>&copy; 2024 Vida Adeli. All rights reserved.</p>

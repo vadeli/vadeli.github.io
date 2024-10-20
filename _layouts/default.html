@@ -11,34 +11,38 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Vida Adeli - Computer Vision Researcher" }}</a></h1>
+      <div class="content-wrapper">
+        <header class="profile-section">
+          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Vida Adeli - Computer Vision Researcher" }}</a></h1>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+          {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo" />
+          {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <!-- Social media links with custom logos -->
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/vida-adeli-3a970384/" target="_blank">
-            <img src="/assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
-          </a>
-          <a href="https://github.com/vida-adeli" target="_blank">
-            <img src="/assets/img/github.png" alt="GitHub" class="social-icon">
-          </a>
-          <a href="https://x.com/vida_adl" target="_blank">
-            <img src="/assets/img/twitter.png" alt="Twitter" class="social-icon">
-          </a>
-          <a href="mailto:vida.adeli@mail.utoronto.ca">
-            <img src="/assets/img/email.png" alt="Email" class="social-icon">
-          </a>
-        </div>
-      </header>
-      <section>
-        {{ content }}
-      </section>
+          <!-- Social media links with custom logos -->
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/vida-adeli/" target="_blank">
+              <img src="/assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/vida-adeli" target="_blank">
+              <img src="/assets/img/github.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://x.com/vida_adl" target="_blank">
+              <img src="/assets/img/twitter.png" alt="Twitter" class="social-icon">
+            </a>
+            <a href="mailto:vida.adeli@mail.utoronto.ca">
+              <img src="/assets/img/email.png" alt="Email" class="social-icon">
+            </a>
+          </div>
+        </header>
+
+        <section class="main-content">
+          {{ content }}
+        </section>
+      </div>
+
       <footer>
         <p>&copy; 2024 Vida Adeli. All rights reserved.</p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>

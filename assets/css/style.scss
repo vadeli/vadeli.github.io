@@ -1,0 +1,23 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* Custom styles */
+.social-links a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.fa {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

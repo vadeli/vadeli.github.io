@@ -10,12 +10,15 @@ I am a PhD candidate in Computer Science at the University of Toronto, specializ
 
 - **Ph.D. in Computer Science, University of Toronto (2021 - Present)**  
   Thesis: Computer Vision-based human pose estimation, gait assessment, and fall risk prediction in older adults with dementia.  
+  Supervisors: Prof. Babak Taati, Prof. Andrea Iaboni
 
 - **M.Sc. in Artificial Intelligence, Ferdowsi University of Mashhad (2015 - 2018)**  
   Thesis: Multi-Stream Human Action Recognition Using Spatiotemporal Saliency Maps  
+  Supervisors: Prof. Ehsan Fazl-Ersi, Prof. Ahad Harati
 
 - **B.Sc. in Computer Engineering, Ferdowsi University of Mashhad (2010 - 2014)**  
   Thesis: Object Recognition Using RGB-D Data  
+  Supervisor: Prof. Ahad Harati
 
 ## Projects
 
@@ -63,6 +66,15 @@ For a complete list of publications, visit [my Google Scholar profile](https://s
 - **AI Specialist**, OcularAI Inc., Toronto (2018 - 2021)
 - **Research Assistant**, Machine Vision Lab, Ferdowsi University of Mashhad (2015 - 2018)
 
+## Committee and Membership
+
+- **Program Committee**, 3rd Workshop on Visual Perception for Navigation in Human Environments (ECCV2022)
+- **Reviewer**, IEEE Conference on Computer Vision and Pattern Recognition (CVPR2021, 2022)
+- **Reviewer**, IEEE International Conference on Computer Vision (ICCV2021, 2023)
+- **Reviewer**, IEEE European Conference on Computer Vision (ECCV2022)
+- **Reviewer**, IEEE International Conference on Intelligent Robots and Systems (IROS2020)
+- **Reviewer**, International Conference on Computer and Knowledge Engineering (ICCKE 2017 - 2020)
+
 ## Honors and Awards
 
 - **Mount Sinai Hospital Graduate Scholarship in Science and Technology** (2022)
@@ -76,6 +88,6 @@ For a complete list of publications, visit [my Google Scholar profile](https://s
 
 Feel free to reach out:
 
-- [LinkedIn](https://www.linkedin.com/in/vida-adeli/)
+- [LinkedIn](https://www.linkedin.com/in/vida-adeli-3a970384/)
 - [GitHub](https://github.com/vida-adeli)
 - [Email](mailto:vida.adeli@mail.utoronto.ca)

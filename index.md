@@ -70,8 +70,8 @@ For a complete list of publications, visit [my Google Scholar profile](https://s
 
 ## Honors and Awards
 
-- **Mount Sinai Hospital Graduate Scholarship in Science and Technology** (2022)
 - **Outstanding Reviewer**, IEEE Conference on Computer Vision and Pattern Recognition (CVPR2022)
+- **Mount Sinai Hospital Graduate Scholarship in Science and Technology** (2022)
 - **Best Paper Award**, 4th International Conference on New Studies in Computer and IT (2018)
 - **Ranked 1st**, Among M.Sc. graduates of AI program, FUM (2018)
 - **Ranked 2nd**, Among all B.Sc. students in Computer Engineering, FUM (2015)

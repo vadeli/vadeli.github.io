@@ -83,4 +83,4 @@ Feel free to reach out:
 
 - [LinkedIn](https://www.linkedin.com/in/vida-adeli/)
 - [GitHub](https://github.com/vadeli)
-- [Email](mailto:vida.adeli@mail.utoronto.ca) : vida.adeli@mail.utoronto.ca
+- [Email](mailto:vida.adeli@mail.utoronto.ca) : vadeli@cs.toronto.edu / vida.adeli@mail.utoronto.ca

@@ -11,8 +11,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="content-wrapper">
-        <header class="profile-section">
+        <header style="text-align: center;">
           <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Vida Adeli - Computer Vision Researcher" }}</a></h1>
 
           {% if site.logo %}
@@ -22,7 +21,7 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
 
           <!-- Social media links with custom logos -->
-          <div class="social-links">
+          <div class="social-links" style="text-align: center;">
             <a href="https://www.linkedin.com/in/vida-adeli/" target="_blank">
               <img src="/assets/img/linkedin.png" alt="LinkedIn" class="social-icon">
             </a>
@@ -37,7 +36,6 @@
             </a>
           </div>
         </header>
-      </div>
         <section>
           {{ content }}
         </section>

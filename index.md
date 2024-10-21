@@ -18,7 +18,9 @@ I am a PhD candidate in Computer Science at the University of Toronto, specializ
   Thesis: Object Recognition Using RGB-D Data  
 
 ## Projects
-- **Generative Model for Human Motion and Pathology Analysis**: Designed a generative model based on residual VQ-VAE with transformers and VQ-diffusions for disentangled motion and pathology representation learning and generation, particularly for Parkinson’s Disease.  
+- **Generative Model for Human Motion and Pathology Analysis**: Designed a generative model based on residual VQ-VAE with transformers and VQ-diffusions for disentangled motion and pathology representation learning and generation, particularly for Parkinson’s Disease.
+
+- **EMotionDiffuse-GPT: Multi-modal Motion and Video Generation**: A multi-modal project integrating human motion analysis, video interpretation, and emotional/body language insights. Used Vicuna and Llama large language models (LLMs) with advanced diffusion models to generate controllable, emotion-aware motion sequences from video data. 
 
 - **[AMBIENT Project](https://github.com/vida-adeli/AMBIENT-Project)**: Using computer vision technology to analyze gait and predict short-term falls risk in older adults with dementia.  
   Collaborating with the KITE Research Institute at Toronto Rehabilitation Institute, UHN.

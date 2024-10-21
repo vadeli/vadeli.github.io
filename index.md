@@ -77,5 +77,5 @@ For a complete list of publications, visit [my Google Scholar profile](https://s
 Feel free to reach out:
 
 - [LinkedIn](https://www.linkedin.com/in/vida-adeli/)
-- [GitHub](https://github.com/vida-adeli)
-- [Email](mailto:vida.adeli@mail.utoronto.ca)
+- [GitHub](https://github.com/vadeli)
+- [Email](mailto:vida.adeli@mail.utoronto.ca) : vida.adeli@mail.utoronto.ca

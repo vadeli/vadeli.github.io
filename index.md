@@ -4,7 +4,9 @@ layout: default
 
 # About Me!
 
-I am a PhD candidate in Computer Science at the University of Toronto, specializing in Computer Vision and Machine Learning. My research focuses on improving health monitoring systems, specifically gait analysis and fall risk prediction for older adults with dementia. I have extensive experience in pose estimation, human activity recognition, and visual detection.
+I am a Computer Science PhD candidate at University of Toronto, advised by [Babak Taati](https://www.cs.toronto.edu/~taati/) and [Andrea Iaboni](https://rsi.utoronto.ca/faculty/andrea-iaboni). I am also affiliated with [KITE - Univeristy Health Network](https://kite-uhn.com/) as a Research Assistant. Previously, I was a Researcher at [Vision & Learning for Autonomous AI (VL4AI) Lab](https://vl4ai.erc.monash.edu/), Monash University.
+
+My research interests broadly span Computer Vision and Deep Learning. I am particularly interested in developing generative models, for 3D human motion analysis using various human sensing technologies, such as video and sensory data, with applications in healthcare.
 
 ## Education
 

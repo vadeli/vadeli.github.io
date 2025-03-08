@@ -8,6 +8,8 @@ I am a Computer Science PhD candidate at University of Toronto, supervised by [B
 
 My research interests broadly span Computer Vision and Deep Learning. I am particularly interested in developing generative models, for 3D human motion analysis using various human sensing technologies, such as video and sensory data, with applications in healthcare.
 
+[**Download My Resume (PDF)**](./assets/vida_adeli_resume.pdf)
+
 ## Education
 
 - **Ph.D. in Computer Science, University of Toronto (2021 - Present)**  

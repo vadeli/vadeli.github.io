@@ -17,6 +17,23 @@
   --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+html[data-theme="dark"] {
+  --page: #0b1220;
+  --surface: #121c2b;
+  --surface-muted: #0f1928;
+  --ink: #eef4fa;
+  --muted: #a8b5c5;
+  --subtle: #8291a5;
+  --line: #29384d;
+  --accent: #70b8e8;
+  --accent-deep: #9bd3f4;
+  --accent-soft: #173149;
+  --dark: #080f1b;
+  --dark-soft: #111f31;
+  --dark-line: #2b3d54;
+  --shadow: 0 20px 56px rgba(0, 0, 0, 0.28);
+}
+
 *,
 *::before,
 *::after {
@@ -37,6 +54,7 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 img,
@@ -168,6 +186,56 @@ h3 {
 
 .nav-links a:hover {
   color: var(--ink);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.theme-toggle {
+  display: inline-grid;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  transform: translateY(-1px);
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid rgba(23, 105, 168, 0.25);
+  outline-offset: 4px;
+}
+
+.theme-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.theme-icon-sun {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-icon-moon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-icon-sun {
+  display: block;
 }
 
 .button {
@@ -752,12 +820,118 @@ h3 {
   color: var(--accent);
 }
 
+html[data-theme="dark"] .site-header {
+  border-bottom-color: rgba(41, 56, 77, 0.9);
+  background: rgba(11, 18, 32, 0.9);
+}
+
+html[data-theme="dark"] .brand-mark {
+  background: #dce8f2;
+  color: #0b1220;
+}
+
+html[data-theme="dark"] .button {
+  border-color: #dce8f2;
+  background: #dce8f2;
+  color: #0b1220;
+}
+
+html[data-theme="dark"] .button:hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #08111f;
+}
+
+html[data-theme="dark"] .hero-title {
+  color: #d7e2ee;
+}
+
+html[data-theme="dark"] .hero-bio a,
+html[data-theme="dark"] .authors a {
+  text-decoration-color: #53667d;
+}
+
+html[data-theme="dark"] .profile-links a {
+  background: rgba(18, 28, 43, 0.78);
+  color: #c9d5e2;
+}
+
+html[data-theme="dark"] .profile-links a:hover {
+  border-color: #5688aa;
+  background: #18273a;
+  color: var(--accent-deep);
+}
+
+html[data-theme="dark"] .portrait-wrap::before {
+  border-color: #31445c;
+}
+
+html[data-theme="dark"] .portrait-frame {
+  background: #182638;
+}
+
+html[data-theme="dark"] .research-copy > p {
+  color: #c3cfdb;
+}
+
+html[data-theme="dark"] .topic-list span {
+  border-color: #314158;
+  background: rgba(18, 28, 43, 0.72);
+  color: #b9c7d5;
+}
+
+html[data-theme="dark"] .publication-card:hover {
+  border-color: #405570;
+}
+
+html[data-theme="dark"] .publication-media {
+  border-color: #26364a;
+  background: #0d1725;
+}
+
+html[data-theme="dark"] .publication-meta span + span {
+  background: #1a2738;
+  color: #aebdcb;
+}
+
+html[data-theme="dark"] .venue {
+  color: #bdc9d6;
+}
+
+html[data-theme="dark"] .summary {
+  color: #aebbc9;
+}
+
+html[data-theme="dark"] .paper-links a {
+  border-color: #39516a;
+}
+
+html[data-theme="dark"] .paper-links a:hover {
+  border-color: var(--accent);
+}
+
+html[data-theme="dark"] .info-card li::marker {
+  color: #63758a;
+}
+
+html[data-theme="dark"] .info-card {
+  border-top-color: #516b87;
+}
+
+html[data-theme="dark"] .venue-list span {
+  color: #b7c5d3;
+}
+
+html[data-theme="dark"] .footer-inner a {
+  color: #a8b7c7;
+}
+
 @media (max-width: 920px) {
   .nav-links {
     display: none;
   }
 
-  .nav .button {
+  .nav-actions {
     margin-left: auto;
   }
 
@@ -875,6 +1049,11 @@ h3 {
   .button-small {
     min-height: 36px;
     padding: 7px 13px;
+  }
+
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
   }
 
   .hero h1 {
